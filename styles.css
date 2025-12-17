@@ -1,4 +1,24 @@
-body 
-{
-    background-color: maroon;
+body {
+    background-color: #470000;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.heading-font-size {
+    font-size: 50px;
+}
+
+.heading-font-color {
+    color: #ffb35e;
+}
+
+@font-face {
+    font-family: Plaza Regular;
+    src: url('fonts/Plaza\ Regular.ttf');
+}
+
+.font-style {
+    font-family: Plaza Regular;
 }
