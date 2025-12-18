@@ -32,3 +32,8 @@ body {
     color: #ff7287;
     font-family: Splatoon1;
 }
+
+.video-settings {
+    width: 25%;
+    height: auto;
+}
