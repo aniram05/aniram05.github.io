@@ -1,5 +1,7 @@
 body {
     background-color: #470000;
+    margin: 100px;
+    line-height: 1.5;
 }
 
 @font-face {
