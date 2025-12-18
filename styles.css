@@ -9,21 +9,26 @@ body {
     src: url('fonts/Plaza\ Regular.ttf');
 }
 
+@font-face {
+    font-family: Splatoon1;
+    src: url('fonts/Splatoon1.otf');
+}
+
 .heading {
     text-align: center;
-    font-size: 50px;
+    font-size: 75px;
     color: #fe954c;
     font-family: Plaza Regular;
 }
 
 .subheading {
-    font-size: 25px;
+    font-size: 37.5px;
     color: #ffea6b;
     font-family: Plaza Regular;
 }
 
 .normal-text {
-    font-size: 15px;
-    color: #ef697a;
-    font-family: Plaza Regular;
+    font-size: 22.5px;
+    color: #ff7287;
+    font-family: Splatoon1;
 }
