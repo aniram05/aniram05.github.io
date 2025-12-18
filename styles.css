@@ -2,23 +2,26 @@ body {
     background-color: #470000;
 }
 
-.center-text {
-    text-align: center;
-}
-
-.heading-font-size {
-    font-size: 50px;
-}
-
-.heading-font-color {
-    color: #ffb35e;
-}
-
 @font-face {
     font-family: Plaza Regular;
     src: url('fonts/Plaza\ Regular.ttf');
 }
 
-.font-style {
+.heading {
+    text-align: center;
+    font-size: 50px;
+    color: #fe954c;
+    font-family: Plaza Regular;
+}
+
+.subheading {
+    font-size: 25px;
+    color: #ffea6b;
+    font-family: Plaza Regular;
+}
+
+.normal-text {
+    font-size: 15px;
+    color: #ef697a;
     font-family: Plaza Regular;
 }
