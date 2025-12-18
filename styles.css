@@ -34,6 +34,12 @@ body {
 }
 
 .video-settings {
-    width: 75%;
+    width: 50%;
     height: auto;
+}
+
+.video-text-setup {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
 }
