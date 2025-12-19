@@ -34,12 +34,12 @@ body {
 }
 
 .video-settings {
-    flex: 0 0 40%;
+    flex: 0 0 50%;
 }
 
 .video-text-setup {
     display: flex;
-    gap: 20px;
+    gap: 70px;
     align-items: flex-start;
 }
 
@@ -51,4 +51,24 @@ body {
     width: 100%;
     height: auto;
     display: block;
+    border: 3px solid #4abefd;
+    border-radius: 4px;
+}
+
+.video-subheading {
+    color: #4abefd;
+    font-size: 20px;
+    font-family: Splatoon1;
+}
+
+.video-subheading a {
+    color: inherit;
+    text-decoration: underline;
+    font-family: inherit;
+}
+
+.video-text .normal-text p {
+    margin-top: 0;
+    color: #f380ff;
+    font-size: 15px;
 }
