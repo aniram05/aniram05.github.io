@@ -46,3 +46,9 @@ body {
 .video-text {
     flex: 1;
 }
+
+.video-settings video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
