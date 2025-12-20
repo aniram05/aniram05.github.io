@@ -33,21 +33,21 @@ body {
     font-family: Splatoon1;
 }
 
-.video-settings {
+.trailer-settings {
     flex: 0 0 50%;
 }
 
-.video-text-setup {
+.trailer-text-setup {
     display: flex;
     gap: 70px;
     align-items: flex-start;
 }
 
-.video-text {
+.trailer-text {
     flex: 1;
 }
 
-.video-settings video {
+.trailer-settings video {
     width: 100%;
     height: auto;
     display: block;
@@ -55,20 +55,54 @@ body {
     border-radius: 4px;
 }
 
-.video-subheading {
+.trailer-subheading {
     color: #4abefd;
     font-size: 20px;
     font-family: Splatoon1;
 }
 
-.video-subheading a {
+.trailer-subheading a {
     color: inherit;
     text-decoration: underline;
     font-family: inherit;
 }
 
-.video-text .normal-text p {
+.trailer-text .normal-text p {
     margin-top: 0;
     color: #f380ff;
     font-size: 15px;
+}
+
+.ITP380-games-setup {
+    display: flex;
+    gap: 70px;
+    align-items: flex-start;
+}
+
+.ITP380-image-settings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+}
+
+.game-card {
+    text-align: center;
+}
+
+.game-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border: 3px solid #4abefd;
+    border-radius: 4px;
+    display: block;
+}
+
+.game-title a {
+    display: inline-block;
+    margin-top: 10px;
+    font-family: "Splatoon1";
+    font-size: 20px;
+    color: #4abefd;
+    text-decoration: underline;
 }
