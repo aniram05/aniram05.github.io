@@ -106,3 +106,70 @@ body {
     color: #4abefd;
     text-decoration: underline;
 }
+
+.maya-models-setup {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.maya-image-settings {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+}
+
+.maya-model-card {
+    text-align: center;
+}
+
+.maya-model-card img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border: 3px solid #a3fde8;
+    border-radius: 4px;
+    display: block;
+}
+
+.maya-model-title {
+    display: inline-block;
+    margin-top: 10px;
+    font-family: "Splatoon1";
+    font-size: 20px;
+    color: #a3fde8;
+}
+
+.maya-animation-settings {
+    flex: 0 0 50%;
+}
+
+.animation-text-setup {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.animation-text {
+    flex: 1;
+}
+
+.animation-settings video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 3px solid #a3fde8;
+    border-radius: 4px;
+}
+
+.animation-subheading {
+    color: #a3fde8;
+    font-size: 20px;
+    font-family: Splatoon1;
+}
+
+.animation-text .normal-text p {
+    margin-top: 0;
+    color: #b6a9fd;
+    font-size: 15px;
+}
